@@ -1,0 +1,1 @@
+Testing a WordPress theme relying on the [pods framework](http://pods.io/ "Home - Pods Framework") with [wp-browser](https://github.com/lucatume/wp-browser "lucatume/wp-browser · GitHub").
