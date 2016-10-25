@@ -1,0 +1,15 @@
+{
+    "name": "lucatume/pods-theme",
+    "type": "wordpress-theme",
+    "require-dev": {
+        "lucatume/wp-browser": "^1.16"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Luca Tumedei",
+            "email": "luca@theaveragedev.com"
+        }
+    ],
+    "require": {}
+}

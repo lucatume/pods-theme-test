@@ -1,0 +1,24 @@
+# Codeception Test Suite Configuration
+
+# Suite for integration tests.
+# Load WordPress and test classes that rely on its functions and classes.
+
+
+class_name: IntegrationTester
+modules:
+    enabled:
+        - \Helper\Integration
+        - WPLoader:
+            wpRootFolder: /Users/Luca/Sites/pods
+            dbName: podsTests
+            dbHost: localhost
+            dbUser: root
+            dbPassword: root
+            tablePrefix: pods_
+            domain: pods.dev
+            adminEmail: admin@pods.dev
+            title: Pods Tests
+            configFile: tests/tests-config.php
+            plugins: [pods/init.php]
+            activatePlugins: [pods/init.php]
+            bootstrapActions: []
